@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="appveyor.yml" />
+    <File Path="CHANGELOG.md" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="src/BundlerMinifier.Core/BundlerMinifier.Core.csproj" />
+  <Project Path="src/BundlerMinifier.TagHelpers/BundlerMinifier.TagHelpers.csproj" />
+  <Project Path="src/BundlerMinifier/BundlerMinifier.csproj" />
+  <Project Path="src/BundlerMinifierConsole/BundlerMinifierConsole.csproj" />
+  <Project Path="src/BundlerMinifierTest/BundlerMinifierTest.csproj" />
+  <Project Path="src/BundlerMinifierVsix/BundlerMinifierVsix.csproj">
+    <BuildDependency Project="src/BundlerMinifierConsole/BundlerMinifierConsole.csproj" />
+  </Project>
+</Solution>
