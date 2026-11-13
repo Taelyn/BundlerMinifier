@@ -199,10 +199,10 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.SDK">
-      <Version>17.14.40265</Version>
+      <Version>18.12.1606</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Utilities">
-      <Version>17.14.40264</Version>
+      <Version>18.12.1583</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.VSSDK.BuildTools">
       <Version>18.5.40034</Version>
